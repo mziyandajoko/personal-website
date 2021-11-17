@@ -20,8 +20,8 @@ const theme = {
 
 function App() {
   return (
-    <Root>
     <ThemeProvider theme={theme}>
+      <Root>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
@@ -36,8 +36,8 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
-    </ThemeProvider>
     </Root>
+    </ThemeProvider>
   )
 }
 
