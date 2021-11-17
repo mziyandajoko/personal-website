@@ -13,15 +13,15 @@ addPrefetchExcludes(['dynamic'])
 const theme = {
 
   colors: {
-    white: '#FFF',
-    transparent: 'red',
+    white: '#ffff',
+    red: 'red',
   }
 }
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
     <Root>
+    <ThemeProvider theme={theme}>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
@@ -36,8 +36,8 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
-    </Root>
     </ThemeProvider>
+    </Root>
   )
 }
 
