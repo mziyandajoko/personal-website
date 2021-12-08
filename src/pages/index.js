@@ -1,10 +1,8 @@
 import React from 'react'
-import { Button } from "../components/styled/Button.styled";
-
-
+import Hero from '../components/Hero'
+ 
 export default () => (
   <div style={{ textAlign: 'center' }}>
-    <h1>Mziyanda Joko <br/>Portfolio</h1>
-    <Button>learn more</Button>
+    <Hero />
   </div>
 )

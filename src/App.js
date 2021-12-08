@@ -11,11 +11,15 @@ import { ThemeProvider } from 'styled-components'
 addPrefetchExcludes(['dynamic'])
 
 const theme = {
-
-  colors: {
+  color: {
     white: '#ffff',
     red: 'red',
+    peach: '#FDEBD3',
+  },
+  font: {
+    medium:'20px',
   }
+
 }
 
 function App() {

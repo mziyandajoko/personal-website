@@ -1,5 +1,9 @@
+:root{
+  --peach-color: #FDEBD3;
+}
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,6 +13,9 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+h1{
+  font-size: 4rem;  
 }
 
 a {
@@ -23,7 +30,8 @@ img {
 
 nav {
   width: 100%;
-  background: #108db8;
+  background: transparent;
+  margin-bottom: -6rem;
 }
 
 nav a {
@@ -32,6 +40,13 @@ nav a {
   display: inline-block;
 }
 
-.content {
+
+
+/* .content {
   padding: 1rem;
-}
+} */
+
+
+/* .hero {
+  
+} */
