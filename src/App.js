@@ -15,6 +15,8 @@ const theme = {
     white: '#ffff',
     red: 'red',
     peach: '#FDEBD3',
+    transparent: 'transparent',
+    black: 'black'
   },
   font: {
     medium:'20px',
