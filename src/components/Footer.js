@@ -7,7 +7,10 @@ import { Link, Router } from 'components/Router'
 export default function Footer(){
 return(
     <FooterStyled>
-        <div><img  src="#" alt="LOGO" /></div>
+        <div>
+            {/* <img  src="#" alt="LOGO" /> */}
+            <h2>Joko</h2>
+        </div>
         <div>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>

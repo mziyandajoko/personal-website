@@ -20,6 +20,11 @@ const theme = {
   },
   font: {
     medium:'20px',
+  },
+  header: {
+    small: '20px',
+    medium: '30px',
+    large: '40px',
   }
 
 }
